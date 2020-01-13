@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Police_makefine">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="5"
+        android:gravity="center_horizontal"
+        android:background="#d3ffce">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1.4"
+            android:layout_width="100dp"
+            android:layout_height="56dp"
+            android:src="@drawable/bribe"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Make Fine Report"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:padding="20dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="270dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/mkreg"
+                android:backgroundTint="#60EFE1F0"
+                android:background="@drawable/border2"
+                android:padding="10dp"
+                android:textSize="17sp"
+                android:layout_width="130dp"
+                android:layout_height="45sp"
+                android:hint="Reg Num"
+                android:inputType="text"
+                android:textColorHint="@color/colorAccents">
+            </EditText>
+            <Button
+                android:id="@+id/mksearch"
+                android:padding="10dp"
+                android:background="@drawable/border2"
+                android:layout_marginLeft="10dp"
+                android:text="Search"
+                android:backgroundTint="#d3ffce"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:id="@+id/mkvisible"
+            android:visibility="gone"
+            android:padding="5dp"
+            android:backgroundTint="#d3ffce"
+            android:background="@drawable/border2"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:id="@+id/mkname"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="20sp">
+            </TextView>
+
+            <TextView
+                android:layout_marginTop="3dp"
+                android:layout_marginBottom="5dp"
+                android:id="@+id/mkaddress"
+                android:gravity="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@android:color/black"
+                android:textSize="17sp">
+            </TextView>
+        </LinearLayout>
+
+
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/border2"
+            android:backgroundTint="#90F8CF00"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dp">
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Fault:"
+                    android:textColor="#000"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Fine:"
+                    android:textColor="#000"
+                    android:textSize="18sp"></TextView>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:text="Date:"
+                    android:textColor="#000"
+                    android:textSize="18sp"></TextView>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="14dp"
+                android:layout_marginTop="2dp"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/mkfaults"
+                    android:layout_width="180dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="2dp"
+                    android:background="@drawable/textborder"
+                    android:entries="@array/Faults"
+                    android:spinnerMode="dialog"></Spinner>
+
+                <EditText
+                    android:id="@+id/mkamount"
+                    android:layout_width="180dp"
+                    android:layout_height="37sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/border3"
+                    android:backgroundTint="#EBEFE1F0"
+                    android:hint="Enter Amount"
+                    android:inputType="number"
+                    android:padding="3dp"
+                    android:textColorHint="@color/colorAccents"
+                    android:textSize="18sp"></EditText>
+
+                <TextView
+                    android:id="@+id/mkdate"
+                    android:layout_width="180dp"
+                    android:layout_height="37sp"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="@drawable/border3"
+                    android:backgroundTint="#EBEFE1F0"
+                    android:hint="Choose Last Date"
+                    android:padding="3dp"
+                    android:textColorHint="@color/colorAccents"
+                    android:textSize="18sp"></TextView>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="30dp"
+            android:id="@+id/mkconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/border"
+            android:backgroundTint="#3C295E"
+            android:text="Confirm"
+            android:textAllCaps="false"
+            android:textStyle="normal"
+            android:textColor="#F5F1F1"
+            android:textSize="20sp"
+            ></Button>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</LinearLayout>

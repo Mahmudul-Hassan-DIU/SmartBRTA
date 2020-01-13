@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".User_contactadmin">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="5"
+        android:background="#d3ffce">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1.4"
+            android:layout_marginTop="7dp"
+            android:layout_width="100dp"
+            android:layout_height="56dp"
+            android:src="@drawable/mail"/>
+
+        <TextView
+            android:layout_weight="3"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contact Admin"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center">
+
+                        <com.mikhaellopez.circularimageview.CircularImageView
+                            android:layout_width="180dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_height="180dp"
+                            android:src="@drawable/profile"
+                            />
+
+                    </RelativeLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="22sp"
+                        android:textStyle="bold"
+                        android:textColor="@color/colorTitle"
+                        android:text="Md. Mahmudul Hassan"/>
+
+                    <TextView
+                        android:layout_marginBottom="5px"
+                        android:layout_marginTop="3px"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorSubTitle"
+                        android:text="Email: saikat.allsite@gmail.com"/>
+
+                    <TextView
+                        android:layout_marginBottom="10px"
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="15sp"
+                        android:textStyle="normal"
+                        android:textColor="@color/colorSubTitle"
+                        android:text="Mobile: 01786345664"/>
+                </LinearLayout>
+
+
+
+
+            </LinearLayout>
+
+            <View
+
+                android:layout_gravity="center"
+                android:layout_width="265dp"
+                android:layout_height="5dp"
+                android:background="#d3ffce"></View>
+
+
+
+            <LinearLayout
+                android:id="@+id/cavisible2"
+                android:visibility="invisible"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/cavisiblebtn"
+                        android:layout_width="170dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/border"
+                        android:backgroundTint="#3C295E"
+                        android:text="Send Message"
+                        android:textAllCaps="false"
+                        android:textStyle="normal"
+                        android:textColor="#F5F1F1"
+                        android:textSize="20sp"
+                        ></Button>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/cavisible"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <EditText
+                    android:id="@+id/et1"
+                    android:layout_marginTop="20dp"
+                    android:backgroundTint="#60EFE1F0"
+                    android:background="@drawable/border2"
+                    android:padding="10dp"
+                    android:textSize="20sp"
+                    android:layout_width="240dp"
+                    android:layout_height="45sp"
+                    android:hint="Type message"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="@color/colorAccents">
+                </EditText>
+                <LinearLayout
+                    android:layout_marginBottom="5dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <Button
+                        android:id="@+id/sendmsg"
+                        android:layout_width="150dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/border"
+                        android:backgroundTint="#3C295E"
+                        android:text="Send"
+                        android:textAllCaps="false"
+                        android:textStyle="normal"
+                        android:textColor="#F5F1F1"
+                        android:textSize="20sp"
+                        ></Button>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+    ></LinearLayout>

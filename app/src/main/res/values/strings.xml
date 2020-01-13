@@ -1,0 +1,134 @@
+<resources>
+    <string name="app_name">SmartBRTA</string>
+    <string name="button1">Sign in</string>
+
+
+    <array name="Vehicle">
+        <item>-Select Vehicle-</item>
+        <item>Motorcycle / Bike</item>
+        <item>Three Wheeler</item>
+        <item>Motor Car</item>
+        <item>Taxi Cab</item>
+        <item>Jeep</item>
+        <item>Microbus</item>
+        <item>Minibus</item>
+        <item>Bus / Omnibus</item>
+        <item>Double Decker Bus</item>
+        <item>Articulated Bus</item>
+        <item>Van/Covered Van</item>
+        <item>Pickup Van</item>
+        <item>Truck</item>
+        <item>Tank Lorry</item>
+        <item>Trailler</item>
+        <item>Trucktor</item>
+
+    </array>
+
+
+    <array name="Gender">
+        <item>-Select Gender-</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Others</item>
+
+    </array>
+
+    <array name="Faults">
+        <item>-Select Fault-</item>
+        <item>ড্রাইভিং লাইসেন্স - 510tk</item>
+        <item>নিবন্ধন সনদ - 520tk</item>
+        <item>ট্যাক্সটোকেন - 530tk</item>
+        <item>ফিটনেস সনদ - 540tk</item>
+        <item>রুট পারমিট - 550tk</item>
+        <item>ইন্সুরেন্স সনদ - 560tk</item>
+    </array>
+
+
+    <array name="Division">
+
+
+        <item>Barisal</item>
+        <item>Chittagong</item>
+        <item>Dhaka</item>
+        <item>Khulna</item>
+        <item>Mymensingh</item>
+        <item>Rajshahi</item>
+        <item>Sylhet</item>
+        <item>Rangpur</item>
+
+
+    </array>
+
+    <array name="District">
+
+        <item>-Home District-</item>
+        <item>Bagerhat</item>
+        <item>Bagerhat</item>
+        <item>Bandarban</item>
+        <item>Barguna</item>
+        <item>Barisal</item>
+        <item>Bhola</item>
+        <item>Bogra</item>
+        <item>Brahmanbaria</item>
+        <item>Chandpur</item>
+        <item>Chapainawabganj</item>
+        <item>Chittagong</item>
+        <item>Chuadanga</item>
+        <item>Comilla</item>
+        <item>Coxsbazar</item>
+        <item>Dhaka</item>
+        <item>Dinajpur</item>
+        <item>Faridpur</item>
+        <item>Feni</item>
+        <item>Gaibandha</item>
+        <item>Gazipur</item>
+        <item>Gopalganj</item>
+        <item>Habiganj</item>
+        <item>Jamalpur</item>
+        <item>Jessore</item>
+        <item>Jhalakathi</item>
+        <item>Jhalakathi</item>
+        <item>Jhenaidah</item>
+        <item>Jhenaidah</item>
+        <item>Joypurhat</item>
+        <item>Khagrachhari</item>
+        <item>Khulna</item>
+        <item>Kishoreganj</item>
+        <item>Kurigram</item>
+        <item>Kushtia</item>
+        <item>Lakshmipur</item>
+        <item>Lalmonirhat</item>
+        <item>Madaripur</item>
+        <item>Magura</item>
+        <item>Manikganj</item>
+        <item>Meherpur</item>
+        <item>Moulvibazar</item>
+        <item>Munshiganj</item>
+        <item>Mymensingh</item>
+        <item>Naogaon</item>
+        <item>Narail</item>
+        <item>Narayanganj</item>
+        <item>Narsingdi</item>
+        <item>Natore</item>
+        <item>Netrokona</item>
+        <item>Nilphamari</item>
+        <item>Noakhali</item>
+        <item>Pabna</item>
+        <item>Panchagarh</item>
+        <item>Patuakhali</item>
+        <item>Pirojpur</item>
+        <item>Rajbari</item>
+        <item>Rajshahi</item>
+        <item>Rangamati</item>
+        <item>Rangpur</item>
+        <item>Satkhira</item>
+        <item>Shariatpur</item>
+        <item>Sherpur</item>
+        <item>Sirajganj</item>
+        <item>Sunamganj</item>
+
+
+    </array>
+
+
+</resources>

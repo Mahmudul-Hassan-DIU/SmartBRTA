@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.smartbrta">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".HomeActivity"/>
+        <activity android:name=".HomeActivity_p"/>
+        <activity android:name=".HomeActivity_fc"/>
+        <activity android:name=".Profile_admin" />
+        <activity android:name=".Profile_police" />
+        <activity android:name=".Profile" />
+        <activity android:name=".User_changepass" />
+        <activity android:name=".User_contactadmin" />
+        <activity android:name=".User_updateprofile" />
+        <activity android:name=".User_payfine" />
+        <activity android:name=".User_viewprofile" />
+        <activity android:name=".Police_makefine" />
+        <activity android:name=".Admin_cancelreg" />
+        <activity android:name=".Admin_updateinfo" />
+        <activity android:name=".Admin" />
+        <activity android:name=".Police" />
+        <activity android:name=".User" />
+        <activity android:name=".Forgetpassword" />
+        <activity android:name=".Signup" />
+        <activity android:name=".Signin">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

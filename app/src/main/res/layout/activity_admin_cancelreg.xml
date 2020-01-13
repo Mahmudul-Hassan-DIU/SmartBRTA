@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".Admin_cancelreg">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:weightSum="5"
+        android:gravity="center_horizontal"
+        android:background="#d3ffce">
+        <ImageView
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1.4"
+            android:layout_width="100dp"
+            android:layout_height="56dp"
+            android:src="@drawable/reload"/>
+
+        <TextView
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:text="Cancel Registration"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="270dp"
+            android:layout_gravity="center"
+            android:layout_height="wrap_content"
+            android:gravity="center">
+            <EditText
+                android:id="@+id/acrreg"
+                android:backgroundTint="#60EFE1F0"
+                android:background="@drawable/border2"
+                android:padding="10dp"
+                android:textSize="17sp"
+                android:layout_width="130dp"
+                android:layout_height="45sp"
+                android:hint="Reg Num"
+                android:inputType="text"
+                android:textColorHint="@color/colorAccents">
+            </EditText>
+            <Button
+                android:id="@+id/acrsearch"
+                android:padding="10dp"
+                android:background="@drawable/border2"
+                android:layout_marginLeft="10dp"
+                android:text="Search"
+                android:backgroundTint="#d3ffce"
+                android:textSize="18sp"
+                android:textStyle="normal"
+                android:layout_width="wrap_content"
+                android:layout_height="45sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/acrvisible"
+            android:visibility="gone"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_marginTop="50dp"
+                android:padding="5dp"
+                android:backgroundTint="#d3ffce"
+                android:background="@drawable/border2"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:text="Md. Mahmudul Hassan"
+                    android:textStyle="bold"
+                    android:id="@+id/acrname"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="20sp">
+                </TextView>
+
+                <TextView
+                    android:text="Dhanmondi, Dhaka"
+                    android:layout_marginTop="3dp"
+                    android:layout_marginBottom="5dp"
+                    android:id="@+id/acraddress"
+                    android:gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black"
+                    android:textSize="17sp">
+                </TextView>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:padding="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="110dp">
+                <Button
+                    android:layout_marginTop="5dp"
+                    android:id="@+id/acrdelete"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#F8190A"
+                    android:text="Delete Account"
+                    android:textAllCaps="false"
+                    android:textStyle="normal"
+                    android:textColor="#F5F1F1"
+                    android:textSize="20sp"
+                    ></Button>
+                ></LinearLayout>
+
+
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+</LinearLayout>

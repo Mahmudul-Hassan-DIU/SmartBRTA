@@ -1,0 +1,49 @@
+Vehicle type:
+
+Motorcycle / Bike
+Three Wheeler
+Motor Car
+Taxi Cab
+Jeep
+Microbus
+Minibus
+Bus / Omnibus
+Double Decker Bus
+Articulated Bus
+Van/Covered Van
+Pickup Van
+Truck
+Tank Lorry
+Trailler
+Trucktor
+
+
+Fine:
+
+সড়কে মোটরযান চলানোর ক্ষেত্রে নিম্নোক্ত কাগজপত্র সাথে রাখতে হবেঃ
+(১) চালকের ড্রাইভিং লাইসেন্স,
+(২) মোটরযানের নিবন্ধন সনদ ( ব্লুবুক),
+(৩) হালনাগাদ ট্যাক্সটোকেন,
+(৪) হালনাগাদ ফিটনেস সনদ (মোটরসাইকেল ব্যতিত সকলের),
+(৫) হালনাগাদ রুট পারমিট (বাণিজ্যিক মোটরযানের ক্ষেত্রে),
+(৬) হালনাগাদ ইন্সুরেন্স সনদ
+
+
+
+<item>Motorcycle / Bike</item>
+<item>Three Wheeler</item>
+<item>Motor Car</item>
+<item>Taxi Cab</item>
+<item>Jeep</item>
+<item>Microbus</item>
+<item>Minibus</item>
+<item>Bus / Omnibus</item>
+<item>Double Decker Bus</item>
+<item>Articulated Bus</item>
+<item>Van/Covered Van</item>
+<item>Pickup Van</item>
+<item>Truck</item>
+<item>Tank Lorry</item>
+<item>Trailler</item>
+<item>Trucktor</item>
+

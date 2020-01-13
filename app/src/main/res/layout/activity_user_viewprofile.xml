@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".User_viewprofile">
+
+
+
+
+    <ScrollView
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/colorBack">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:background="@color/colorLayerBack"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:background="@drawable/firstlayer">
+                        <ImageView
+                            android:layout_marginTop="30px"
+                            android:layout_marginBottom="30px"
+                            android:layout_width="390px"
+                            android:layout_height="300px"
+                            android:src="@drawable/profile">
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="22sp"
+                            android:textStyle="bold"
+                            android:textColor="@color/colorTitle"
+                            android:text="Katrina Kaif"/>
+
+                        <TextView
+                            android:layout_marginBottom="50px"
+                            android:layout_marginTop="5px"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+                            android:textColor="@color/colorSubTitle"
+                            android:text="Dhanmondi, Dhaka"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:paddingLeft="50px"
+                    android:paddingTop="70px"
+                    android:gravity="center"
+                    android:paddingBottom="70px"
+                    android:background="@drawable/secondlayer">
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="600 Tk"
+                                android:textColor="@color/colorTitleWhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Due"
+                                android:textColor="@color/colorSubTitleWhite"
+                                android:textSize="18sp"
+                                android:textStyle="normal"/>
+                        </LinearLayout>
+                        <View
+                            android:layout_width="1px"
+                            android:layout_height="match_parent"
+                            android:layout_marginLeft="20px"
+                            android:layout_marginRight="20px"
+                            android:background="@color/colorPrimaryDark"/>
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            android:gravity="center">
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="150 Days"
+                                android:textColor="@color/colorTitleWhite"
+                                android:textSize="20sp"
+                                android:textStyle="bold"/>
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Validity"
+                                android:textColor="@color/colorSubTitleWhite"
+                                android:textSize="18sp"
+                                android:textStyle="normal"></TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+
+
+                <LinearLayout
+                    android:padding="60px"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Email"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+                            android:text="katrina@gmail.com"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="10px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginBottom="10px"
+                        android:background="@color/colorHorizontalDivider"></View>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Mobile"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+                            android:text="01786345664"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="10px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginBottom="10px"
+                        android:background="@color/colorHorizontalDivider"></View>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Gender" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+                            android:text="Female"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="10px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginBottom="10px"
+                        android:background="@color/colorHorizontalDivider"></View>
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="District" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+                            android:text="Dhaka"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="10px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginBottom="10px"
+                        android:background="@color/colorHorizontalDivider"></View>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Thana" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+                            android:text="Pirganj"
+                            />
+                    </LinearLayout>
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1px"
+                        android:layout_marginTop="10px"
+                        android:layout_marginRight="20px"
+                        android:layout_marginBottom="10px"
+                        android:background="@color/colorHorizontalDivider"></View>
+
+                    <LinearLayout
+                        android:orientation="vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="20sp"
+                            android:textStyle="bold"
+                            android:text="Date of Birth" />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/colorTitleWhite"
+                            android:textSize="18sp"
+                            android:textStyle="normal"
+                            android:text="16-07-1997"
+                            />
+                    </LinearLayout>
+
+
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+            ></RelativeLayout>
+    </ScrollView>
+    ></LinearLayout>

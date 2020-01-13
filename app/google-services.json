@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "896106218207",
+    "firebase_url": "https://smartbrta-66cd2.firebaseio.com",
+    "project_id": "smartbrta-66cd2",
+    "storage_bucket": "smartbrta-66cd2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:896106218207:android:a48efbf49c5e3708685f6a",
+        "android_client_info": {
+          "package_name": "com.example.smartbrta"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "896106218207-b2ip1hr3n6kkcj2i79f0hv48q7ng91j1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.smartbrta",
+            "certificate_hash": "67e2709962d22e26efbfdc43cac6fc65154f7342"
+          }
+        },
+        {
+          "client_id": "896106218207-vggjr28v5ulefqb7esdvn7q1776irho3.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDyzcdEk_Qp5LBjXB7vbuhs_CPLj0WG2Ww"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "896106218207-vggjr28v5ulefqb7esdvn7q1776irho3.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

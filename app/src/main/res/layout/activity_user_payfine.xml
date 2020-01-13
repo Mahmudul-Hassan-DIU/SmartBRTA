@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    tools:context=".User_payfine">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:weightSum="5"
+        android:background="#d3ffce">
+        <ImageView
+            android:layout_marginLeft="20dp"
+            android:layout_weight="1.4"
+            android:layout_marginTop="7dp"
+            android:layout_width="100dp"
+            android:layout_height="56dp"
+            android:src="@drawable/pay"/>
+        <TextView
+            android:gravity="center"
+            android:layout_weight="3"
+            android:layout_marginTop="25dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay Fined Money"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000"/>
+    </LinearLayout>
+
+    <ScrollView
+        android:padding="10dp"
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="30dp">
+                <TextView
+                    android:gravity="center"
+                    android:layout_weight="3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Payment Gateway"
+                    android:textSize="20sp"
+                    android:textStyle="normal"
+                    android:textColor="#3C295E"/>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center">
+
+                    <ImageView
+                        android:id="@+id/pfvisibleb"
+                        android:visibility="invisible"
+                        android:src="@drawable/checked"
+                        android:layout_width="25dp"
+                        android:layout_marginRight="2dp"
+                        android:layout_height="25dp" />
+
+                    <LinearLayout
+                        android:id="@+id/b"
+                        android:layout_marginTop="10dp"
+                        android:background="#ffff"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="110dp"
+                        android:layout_height="120dp">
+                        <ImageView
+                        android:src="@drawable/bkash"
+                        android:layout_width="120dp"
+                        android:layout_height="70dp" />
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="bKash"
+                            android:textColor="@android:color/black"
+                            android:textSize="17dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:id="@+id/r"
+                        android:layout_marginTop="10dp"
+                        android:background="#ffff"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="110dp"
+                        android:layout_height="120dp">
+                        <ImageView
+                            android:src="@drawable/rocket"
+                            android:layout_width="80dp"
+                            android:layout_height="70dp"/>
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Rocket"
+                            android:textColor="@android:color/black"
+                            android:textSize="17dp"/>
+                    </LinearLayout>
+
+                    <ImageView
+                        android:visibility="invisible"
+                        android:id="@+id/pfvisibler"
+                        android:src="@drawable/checked"
+                        android:layout_width="25dp"
+                        android:layout_marginLeft="2dp"
+                        android:layout_height="25dp" />
+                </LinearLayout>
+
+
+                <EditText
+                    android:visibility="invisible"
+                    android:id="@+id/pfamount"
+                    android:layout_marginTop="50dp"
+                    android:backgroundTint="#60EFE1F0"
+                    android:background="@drawable/border2"
+                    android:padding="5dp"
+                    android:textSize="20sp"
+                    android:layout_width="145dp"
+                    android:layout_height="45sp"
+                    android:hint="Enter Amount"
+                    android:inputType="number"
+                    android:textColorHint="@color/colorAccents">
+                </EditText>
+
+
+                <Button
+                    android:visibility="invisible"
+                    android:layout_marginTop="50dp"
+                    android:id="@+id/pfconfirm"
+                    android:layout_width="280dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/border"
+                    android:backgroundTint="#3C295E"
+                    android:text="Confirm"
+                    android:textAllCaps="false"
+                    android:textStyle="normal"
+                    android:textColor="#F5F1F1"
+                    android:textSize="20sp"
+                    ></Button>
+
+
+
+                ></LinearLayout>
+
+
+
+
+
+    </ScrollView>
+    ></LinearLayout>

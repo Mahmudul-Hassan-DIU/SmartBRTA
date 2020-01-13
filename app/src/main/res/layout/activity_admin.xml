@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:weightSum="10"
+    tools:context=".Admin">
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#d3ffce">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:layout_width="100dp"
+           android:layout_marginLeft="4dp"
+            android:layout_marginTop="4dp"
+            android:layout_height="180dp"
+            android:src="@drawable/profile"
+            />
+
+        <LinearLayout
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Md. Mahmudul Hassan"
+                android:textSize="18sp"
+                android:textColor="#000" />
+            <TextView
+                android:text="BRTA Admin"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+    <ScrollView
+        android:layout_weight="9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RelativeLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:layout_marginTop="5dp"
+                android:padding="7dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent">
+
+                    <LinearLayout
+                        android:id="@+id/aui"
+                        android:background="#ffff"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp">
+                        <ImageView
+                            android:src="@drawable/user"
+                            android:layout_width="120dp"
+                            android:layout_height="60dp" />
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Owner Info"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/acr"
+                        android:layout_marginTop="10dp"
+                        android:background="#ffff"
+                        android:orientation="vertical"
+                        android:gravity="center"
+
+                        android:layout_width="140dp"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:src="@drawable/folder"
+                            android:layout_width="120dp"
+                            android:layout_height="60dp" />
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Cancel Reg"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:visibility="gone"
+                        android:id="@+id/aupi"
+                        android:layout_marginTop="10dp"
+                        android:background="#ffff"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:src="@drawable/reload"
+                            android:layout_width="120dp"
+                            android:layout_height="60dp" />
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Update Info"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+
+                    </LinearLayout>
+
+
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:orientation="vertical"
+                    android:layout_height="match_parent">
+                    <LinearLayout
+                        android:id="@+id/afc"
+                        android:layout_marginTop="10dp"
+                        android:background="#ffff"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp">
+                        <ImageView
+                            android:src="@drawable/fine"
+                            android:layout_width="120dp"
+                            android:layout_height="60dp" />
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Fine Collection"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+
+
+                   <!-- <LinearLayout
+                        android:id="@+id/ainbox"
+                        android:layout_marginTop="10dp"
+                        android:background="#ffff"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp">
+                        <ImageView
+                            android:src="@drawable/message"
+                            android:layout_width="120dp"
+                            android:layout_height="60dp" />
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Messages"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+                    </LinearLayout>-->
+
+
+
+
+
+
+                    <LinearLayout
+                        android:id="@+id/alo"
+                        android:layout_marginTop="10dp"
+                        android:background="#ffff"
+                        android:orientation="vertical"
+                        android:gravity="center"
+                        android:layout_marginBottom="15dp"
+                        android:layout_width="140dp"
+                        android:layout_height="100dp">
+
+                        <ImageView
+                            android:src="@drawable/exit"
+                            android:layout_width="120dp"
+                            android:layout_height="60dp" />
+                        <TextView
+                            android:layout_marginTop="10dp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Log Out"
+                            android:textColor="@android:color/black"
+                            android:textSize="15dp"/>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+            ></RelativeLayout>
+    </ScrollView>
+    ></LinearLayout>
